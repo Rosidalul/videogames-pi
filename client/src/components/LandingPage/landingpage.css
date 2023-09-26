@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2{
+  margin-top: 300px;
+}
+.Boton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1500px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.Boton .inicio{
+  color: white;
+  border: 1px solid white;
+  background: none;
+  width: 150px;
+  height: 40px;
+}

@@ -1,0 +1,39 @@
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buton {
+    margin-left: 5px;
+    font-family : Pixel;
+    src : url "../../../src/FuenteButon/Pixel.ttf";
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(177, 173, 173);
+    font-weight: bolder;
+    
+}
+
+.barbuton {
+    font-family : Pixel;
+    src : url "../../../src/FuenteButon/Pixel.ttf";
+    padding: 10px;
+    margin: 20px;
+    width: 380px;
+    background-color: rgb(198, 204, 198);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.buton:hover {
+    background-color: black;
+    color: rgb(208, 211, 208);
+}
+
+.bar-btn:hover {
+    background-color:rgb(240, 198, 13)
+}
